@@ -1,0 +1,7 @@
+{% extends 'ow/baseCharacters.html.twig' %}
+{% block body %}
+    {{ form_start(formFaccion) }}
+        {{ form_widget(formFaccion) }}
+        <button class="btn btn-lg btn-primary" type="submit">Add</button>
+    {{ form_end(formFaccion) }}
+{% endblock %}
